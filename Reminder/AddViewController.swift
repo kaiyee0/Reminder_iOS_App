@@ -50,8 +50,8 @@ class AddViewController: UIViewController, UITextFieldDelegate {
                 let statement = mydb.fetch("records", cond: "id == \(recordId)", order: nil)
                 if sqlite3_step(statement) == SQLITE_ROW{
                     record.id = Int(sqlite3_column_int(statement, 0))
-                    record.storyTitle = String(cString: sqlite3_column_text(statement, 2))
-                    record.storyContent = String(cString: sqlite3_column_text(statement, 1))
+                    record.storyTitle = String(cString: sqlite3_column_text(statement, 1))
+                    record.storyContent = String(cString: sqlite3_column_text(statement, 2))
                     record.createTime = String(cString: sqlite3_column_text(statement, 5))
                     
                 }
