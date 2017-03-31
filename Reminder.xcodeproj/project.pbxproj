@@ -17,7 +17,6 @@
 		D8EC08A41E8BCE5000EC59A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC08A31E8BCE5000EC59A0 /* LoginViewController.swift */; };
 		D8EC08A61E8C29BA00EC59A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC08A51E8C29BA00EC59A0 /* HomeViewController.swift */; };
 		D8EC08A81E8C29DD00EC59A0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC08A71E8C29DD00EC59A0 /* AddViewController.swift */; };
-		D8EC08AA1E8D560A00EC59A0 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = D8EC08A91E8D560A00EC59A0 /* icons */; };
 		D8EC08AC1E8D797700EC59A0 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC08AB1E8D797700EC59A0 /* MoreViewController.swift */; };
 		D8EC08AE1E8D7CC300EC59A0 /* ResetPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC08AD1E8D7CC300EC59A0 /* ResetPassViewController.swift */; };
 		D8EC08B01E8E036700EC59A0 /* SQLiteConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC08AF1E8E036700EC59A0 /* SQLiteConnect.swift */; };
@@ -37,7 +36,6 @@
 		D8EC08A31E8BCE5000EC59A0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D8EC08A51E8C29BA00EC59A0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D8EC08A71E8C29DD00EC59A0 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		D8EC08A91E8D560A00EC59A0 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../StorMap/StorMap/icons; sourceTree = "<group>"; };
 		D8EC08AB1E8D797700EC59A0 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		D8EC08AD1E8D7CC300EC59A0 /* ResetPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPassViewController.swift; sourceTree = "<group>"; };
 		D8EC08AF1E8E036700EC59A0 /* SQLiteConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteConnect.swift; path = ../SQLiteConnect.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 		D8EC08881E8BC05600EC59A0 /* Reminder */ = {
 			isa = PBXGroup;
 			children = (
-				D8EC08A91E8D560A00EC59A0 /* icons */,
 				D8EC08891E8BC05600EC59A0 /* AppDelegate.swift */,
 				D8EC088B1E8BC05600EC59A0 /* PreViewController.swift */,
 				D8EC08AF1E8E036700EC59A0 /* SQLiteConnect.swift */,
@@ -162,7 +159,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8EC08941E8BC05600EC59A0 /* LaunchScreen.storyboard in Resources */,
-				D8EC08AA1E8D560A00EC59A0 /* icons in Resources */,
 				D8EC08911E8BC05600EC59A0 /* Assets.xcassets in Resources */,
 				D8EC088F1E8BC05600EC59A0 /* Main.storyboard in Resources */,
 			);
@@ -349,6 +345,7 @@
 				D8EC089A1E8BC05600EC59A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
