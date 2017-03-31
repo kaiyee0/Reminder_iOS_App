@@ -13,7 +13,6 @@
 		D8EC08911E8BC05600EC59A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8EC08901E8BC05600EC59A0 /* Assets.xcassets */; };
 		D8EC08941E8BC05600EC59A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EC08921E8BC05600EC59A0 /* LaunchScreen.storyboard */; };
 		D8EC089D1E8BC0BA00EC59A0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EC089C1E8BC0BA00EC59A0 /* libsqlite3.tbd */; };
-		D8EC08A01E8BC1C400EC59A0 /* SQLiteConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC089F1E8BC1C400EC59A0 /* SQLiteConnect.swift */; };
 		D8EC08A21E8BC82E00EC59A0 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC08A11E8BC82E00EC59A0 /* SetupViewController.swift */; };
 		D8EC08A41E8BCE5000EC59A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC08A31E8BCE5000EC59A0 /* LoginViewController.swift */; };
 		D8EC08A61E8C29BA00EC59A0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC08A51E8C29BA00EC59A0 /* HomeViewController.swift */; };
@@ -21,6 +20,7 @@
 		D8EC08AA1E8D560A00EC59A0 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = D8EC08A91E8D560A00EC59A0 /* icons */; };
 		D8EC08AC1E8D797700EC59A0 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC08AB1E8D797700EC59A0 /* MoreViewController.swift */; };
 		D8EC08AE1E8D7CC300EC59A0 /* ResetPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC08AD1E8D7CC300EC59A0 /* ResetPassViewController.swift */; };
+		D8EC08B01E8E036700EC59A0 /* SQLiteConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EC08AF1E8E036700EC59A0 /* SQLiteConnect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,6 @@
 		D8EC08951E8BC05600EC59A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8EC089C1E8BC0BA00EC59A0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		D8EC089E1E8BC11E00EC59A0 /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
-		D8EC089F1E8BC1C400EC59A0 /* SQLiteConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteConnect.swift; path = ../../StorMap/StorMap/SQLiteConnect.swift; sourceTree = "<group>"; };
 		D8EC08A11E8BC82E00EC59A0 /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
 		D8EC08A31E8BCE5000EC59A0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D8EC08A51E8C29BA00EC59A0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +40,7 @@
 		D8EC08A91E8D560A00EC59A0 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../StorMap/StorMap/icons; sourceTree = "<group>"; };
 		D8EC08AB1E8D797700EC59A0 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		D8EC08AD1E8D7CC300EC59A0 /* ResetPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPassViewController.swift; sourceTree = "<group>"; };
+		D8EC08AF1E8E036700EC59A0 /* SQLiteConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteConnect.swift; path = ../SQLiteConnect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				D8EC08A91E8D560A00EC59A0 /* icons */,
-				D8EC089F1E8BC1C400EC59A0 /* SQLiteConnect.swift */,
 				D8EC08891E8BC05600EC59A0 /* AppDelegate.swift */,
 				D8EC088B1E8BC05600EC59A0 /* PreViewController.swift */,
+				D8EC08AF1E8E036700EC59A0 /* SQLiteConnect.swift */,
 				D8EC088D1E8BC05600EC59A0 /* Main.storyboard */,
 				D8EC08AD1E8D7CC300EC59A0 /* ResetPassViewController.swift */,
 				D8EC08AB1E8D797700EC59A0 /* MoreViewController.swift */,
@@ -176,10 +176,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8EC08A21E8BC82E00EC59A0 /* SetupViewController.swift in Sources */,
+				D8EC08B01E8E036700EC59A0 /* SQLiteConnect.swift in Sources */,
 				D8EC088C1E8BC05600EC59A0 /* PreViewController.swift in Sources */,
 				D8EC08A81E8C29DD00EC59A0 /* AddViewController.swift in Sources */,
 				D8EC08AE1E8D7CC300EC59A0 /* ResetPassViewController.swift in Sources */,
-				D8EC08A01E8BC1C400EC59A0 /* SQLiteConnect.swift in Sources */,
 				D8EC08A41E8BCE5000EC59A0 /* LoginViewController.swift in Sources */,
 				D8EC08AC1E8D797700EC59A0 /* MoreViewController.swift in Sources */,
 				D8EC088A1E8BC05600EC59A0 /* AppDelegate.swift in Sources */,

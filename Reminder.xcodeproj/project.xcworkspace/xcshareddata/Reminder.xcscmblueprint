@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F0B2374B52A7877C15CA6118D46D3C37CA967C18",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F0B2374B52A7877C15CA6118D46D3C37CA967C18" : 9223372036854775807,
+    "1FA5E950B8BDAE28E423F025B2B48F5C154EC823" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8BB2F0E4-56BE-4D43-A13B-5EE3E0EB5314",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F0B2374B52A7877C15CA6118D46D3C37CA967C18" : "Reminder\/",
+    "1FA5E950B8BDAE28E423F025B2B48F5C154EC823" : "StorMap\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Reminder",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Reminder.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kaiyee0\/StorMap_iOS-App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1FA5E950B8BDAE28E423F025B2B48F5C154EC823"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kaiyee0\/Reminder_iOS_App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F0B2374B52A7877C15CA6118D46D3C37CA967C18"
+    }
+  ]
+}
